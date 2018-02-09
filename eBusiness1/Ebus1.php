@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Select Product</title>
-        
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
-
+   <head>
+       <title>Select Product</title>
+       
+       <!--jQuery-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script type="text/javascript" src="cost_calc.js"></script>
+       
     </head>
     
     <body>
-        
+       
             <h4>Select a Product</h4>
+           
+           <br/>
             
-            <br/>
-            
-            <form method="POST" action="Ebus2.php">
+           <form method="POST" action="Ebus2.php">
               
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -56,4 +56,4 @@
             
     
     </body>
-</html>
+</html> 
