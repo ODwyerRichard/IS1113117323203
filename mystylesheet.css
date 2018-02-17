@@ -8,7 +8,10 @@ html,body{
 }
 
 
-
+body {
+    background-image: url("Gray.jpg");
+    background-repeat: repeat-y;
+}
 
 .mainheading{
     text-align: center;
