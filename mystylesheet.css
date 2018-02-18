@@ -10,11 +10,12 @@ html,body{
 
 body {
     background-image: url("Gray.jpg");
-    background-repeat: repeat-y;
+    background-size: contain;
 }
 
 .mainheading{
     text-align: center;
+  
 }
 
 ul{
@@ -23,6 +24,7 @@ ul{
     width: 100%;
     height:10%;
     position:relative;
+    
     
     
 }
@@ -34,32 +36,40 @@ ul li {
      position:relative;
      top:40%;
      
-
-     
-     
 }
 
 ul li a{
     text-decoration: none;
     color:black;
     font-size:25px;
-   
+    border-radius: 15px;
+    
 }
 
 .active{
     background:green;
-    padding: 2%;
+    padding: 1%;
 }
 
 ul li a:hover{
     background: green;
     opacity:.8;
     color: white;
-    
-    padding:2%;
+    padding:1%;
 }
 
 h1 {
     font-family: sans-serif;
 }
 
+p {
+    font-family: cursive;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    border: solid;
+    bottom: -100px;
+    
+    
+    
+}
