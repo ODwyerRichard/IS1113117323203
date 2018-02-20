@@ -1,5 +1,6 @@
 *{
-    margin:0;
+    margin:2;
+    margin-left: 2;
 }
 
 
@@ -23,7 +24,9 @@ ul{
     background:none;
     width: 100%;
     height:10%;
-    position:relative;
+    position: relative;
+    bottom: -20px;
+    
     
     
     
@@ -33,7 +36,7 @@ ul li {
      list-style:none;
      display:inline;
      margin:5px;
-     position:relative;
+     
      top:40%;
      
 }
@@ -43,7 +46,8 @@ ul li a{
     color:black;
     font-size:25px;
     border-radius: 15px;
-    position: relative;
+    padding-right: 3px;
+    
 }
 
 .active{
@@ -56,7 +60,6 @@ ul li a:hover{
     opacity:.8;
     color: white;
     padding:1%;
-    position: relative;
 }
 
 h1 {
@@ -66,58 +69,18 @@ h1 {
 .homepage {
     font-family: cursive;
     font-size: 40px;
-    position: relative;
+    position: absolute;
+    left: 27%;
+    top: 35%;
     text-align: center;
     border: solid;
     bottom: -100px;
+    width: 50%;
+    height: 17%;
 }
 
-.cv {
-    font-family: sans-serif;
-}
 
-.personal {
-    border: solid;
-    text-align: center;
-    font-size: 20px;
-    font-family: sans-serif
     
-}
-
-.aboutheader {
-    font-family: sans-serif;
-    position: relative;
-    bottom: -100px;
-}
-
-
-
-.btnCVnext {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    position: relative;
-    bottom: -300px;
-    left: 1200px;
- }
  
- .btnCVhome {
-    background-color: red;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 2px;
-    font-size: 16px;
-    position: relative;
-    bottom: -300px;
-    right: 80px;
-    
- }
  
  

@@ -1,0 +1,145 @@
+*{
+margin:2;
+margin-left: 2;
+}
+
+
+html,body{
+height:100%;
+}
+
+
+body {
+background-image: url("Gray.jpg");
+background-size: contain;
+}
+
+.mainheading{
+text-align: center;
+  
+}
+
+ul{
+display:block;
+background:none;
+width: 100%;
+height:10%;
+position: relative;
+bottom: -20px;
+    
+    
+    
+    
+}
+
+ul li {
+list-style:none;
+display:inline;
+margin:5px;
+top:40%;
+     
+}
+
+ul li a{
+text-decoration: none;
+color:black;
+font-size:25px;
+border-radius: 15px;
+padding-right: 3px;
+    
+}
+
+.active{
+background:green;
+padding: 1%;
+}
+
+ul li a:hover{
+background: green;
+opacity:.8;
+color: white;
+padding:1%;
+}
+
+.Welcome {
+font-family: impact;
+font-size: 50px;
+position: absolute;
+left: 35%;
+top: 15%;
+}
+    
+
+   
+
+.cloudicon {
+position: absolute;
+top: 0.3%;
+left: 88%;
+}
+
+.cloud-heading {
+font-family: cursive;
+position: absolute;
+top:9%;
+left: 84%;
+}
+
+.cloudpara1 {
+font-family: monospace;
+font-size: 25px;
+position: absolute;
+top: 30%;
+Left: 2%;
+}
+
+.cloudpara2 {
+font-family: monospace;
+font-size: 25px;
+position: absolute;
+top: 50%;
+Left: 2%;
+}
+
+.cloudpara3 {
+font-family: monospace;
+font-size: 25px;
+position: absolute;
+top: 60%;
+Left: 2%;
+}
+
+.cloudpara4 {
+font-family: monospace;
+font-size: 25px;
+position: absolute;
+top: 40%;
+Left: 2%;
+}
+
+.fb-icon {
+position: absolute;
+top: 92%;
+left: 95%;
+}
+
+.insta-icon {
+position: absolute;
+top: 92%;
+left: 91%;
+}
+
+.twitter-icon {
+position: absolute;
+top: 92%;
+left: 87%;    
+}
+
+.social-tag {
+font-family: cursive;
+font-size: 20px;
+position: absolute;
+top: 91%;
+left: 69.5%;
+}
+

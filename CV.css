@@ -1,0 +1,198 @@
+*{
+    margin:2;
+    margin-left: 2;
+}
+
+html,body{
+    height:100%;
+}
+
+
+body {
+    background-image: url("Gray.jpg");
+    background-size: contain;
+}
+
+.mainheading{
+    text-align: center;
+  
+}
+
+ul{
+    display:block;
+    background:none;
+    width: 100%;
+    height:10%;
+    position: relative;
+    bottom: -20px;
+    
+    
+    
+    
+}
+
+ul li {
+     list-style:none;
+     display:inline;
+     margin:5px;
+     top:40%;
+     
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+    border-radius: 15px;
+    padding-right: 3px;
+    
+}
+
+.active{
+    background:green;
+    padding: 1%;
+}
+
+ul li a:hover{
+    background: green;
+    opacity:.8;
+    color: white;
+    padding:1%;
+}
+
+.cv {
+    font-family: sans-serif;
+}
+
+
+
+.personal {
+    border: solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    width:55%;
+    position:absolute;
+    left:20%;
+    
+}
+
+.aboutheader {
+    font-family: sans-serif;
+    position: absolute;
+    top: 70%;
+}
+ 
+
+/*button*/
+.btn {
+    Background: white;
+    border: 2px solid;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* Green colour*/
+.Next-page1 {
+    border-color: #4CAF50;
+    color: green;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+
+.Next-page1:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+.hello-heading {
+    position: relative;
+    bottom: -80px;
+    display:inline;
+    }
+
+.education1 {
+    border: solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+
+.education2 {
+    border: solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+
+/* Green colour*/
+.Next-page2 {
+    border-color: #4CAF50;
+    color: green;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+.Next-page2:hover {
+    background-color: green;
+    color: white;
+}
+
+/* red colour*/
+.Back-page2-3 {
+    border-color: Red;
+    color: Red;
+    position: absolute;
+    top: 90%;
+    left: 4%;
+}
+
+.Back-page2-3:hover {
+    background-color: Red;
+    color: white;
+}
+
+/* Green colour*/
+.Next-page3 {
+    border-color: blue;
+    color: blue;
+    position: absolute;
+    top: 90%;
+    left: 88%;
+}
+
+.Next-page3:hover {
+    background-color: blue;
+    color: white;
+}
+
+.Work-Experience {
+    border: solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+
+
+
+
