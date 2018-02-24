@@ -203,4 +203,91 @@ top: 68%;
 left: 40%;
 }
 
+#about-info {
+position: absolute;
+top: 20%;
+left: 2%;
+font-family: sans-serif;
+font-size: 30px
+}
+
+#salesforce-box {
+border: solid;
+width: 23%;
+position: absolute;
+top: 50%;
+left: 1%;
+border-color: grey;
+height: 70%;
+
+
+
+}
+
+.about-header {
+position: absolute;
+left: 3%;
+font-family: inherit;
+font-size: 40px;
+}
+
+#salesforce-pic {
+position: absolute;   
+top: 5%;
+left: 18%;
+
+}
+
+#cloud9-box {
+border: solid;
+width: 24%;
+position: absolute;
+top: 50%;
+left: 25%;
+border-color: grey;
+height: 70%;
+}
+
+#cloud9-pic {
+position: absolute;   
+top: 5%;
+left: 18%;
+}
+
+#amazon-box {
+border: solid;
+width: 24%;
+position: absolute;
+top: 50%;
+left: 50%;
+border-color: grey;
+height: 70%;
+}
+
+#amazon-pos {
+position: absolute;   
+top: 5%;
+left: 20%;
+height: 35%;
+border-radius: 15%;
+}
+
+#gmail-box {
+border: solid;
+width: 24%;
+position: absolute;
+top: 50%;
+left: 75%;
+border-color: grey;
+height: 70%;
+}
+
+#gmail-pos {
+position: absolute;   
+top: 5%;
+left: 5%;
+height: 35%;
+width: 88%;
+border-radius: 15%;
+}
 
