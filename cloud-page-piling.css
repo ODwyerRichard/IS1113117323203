@@ -1,0 +1,137 @@
+#section1{
+background-position: center;
+background-color: gray;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#salesforce-icon {
+border-radius: 15%;
+position: absolute;  
+top: 30%;
+left: 30%;
+width: 40%;
+height: 30%;
+}
+
+
+
+#section2{
+background-position: center;
+background-color: #1CBEF1;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#cloud9-icon {
+border-radius: 15%;
+position: absolute;  
+top: 25%;
+left: 35%;
+width: 30%;
+height: 40%;
+}
+
+#section3{
+background-position: center;
+background-color: gray;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#amazon-icon {
+border-radius:15%;
+position: absolute;  
+top: 20%;
+left: 30%;
+height: 50%;
+width: 40%
+}
+
+#section4{
+background-position: center;
+background-color: #1CBEF1;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#section5{
+background-position: center;
+background-color: gray;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+#section6{
+background-position: center;
+background-color: #FCF564;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#section7{
+background-position: center;
+background-color: gray;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#gmail-icon {
+border-radius:15%;
+position: absolute;  
+top: 20%;
+left: 30%;
+width: 40%;
+height: 50%;
+}
+
+#section8{
+background-position: center;
+background-color: #ED3E3E;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+.piling-paragraph {
+font-family: monospace;
+color: black;
+font-size: 35px;
+position: absolute;
+top: 30%;
+left: 2%;
+width: 95%;
+text-align: left;
+}
+
+/*button*/
+.btn-return {
+    Background: white;
+    border: 2px solid;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #1CBEF1;
+    color: green;
+    position: absolute;
+    top: 70%;
+    left: 43%;
+}
+
+
+.btn-return:hover {
+    background-color: #1CBEF1;
+    color: white;
+}
+
