@@ -218,7 +218,7 @@ position: absolute;
 top: 50%;
 left: 1%;
 border-color: grey;
-height: 70%;
+height: 87%;
 
 
 
@@ -245,12 +245,12 @@ position: absolute;
 top: 50%;
 left: 25%;
 border-color: grey;
-height: 70%;
+height: 87%;
 }
 
 #cloud9-pic {
 position: absolute;   
-top: 5%;
+top: 1%;
 left: 18%;
 }
 
@@ -261,14 +261,14 @@ position: absolute;
 top: 50%;
 left: 50%;
 border-color: grey;
-height: 70%;
+height: 87%;
 }
 
 #amazon-pos {
 position: absolute;   
-top: 5%;
+top: 1%;
 left: 20%;
-height: 35%;
+height: 32%;
 border-radius: 15%;
 }
 
@@ -279,15 +279,28 @@ position: absolute;
 top: 50%;
 left: 75%;
 border-color: grey;
-height: 70%;
+height: 87%;
 }
 
 #gmail-pos {
 position: absolute;   
-top: 5%;
+top: 1%;
 left: 5%;
-height: 35%;
+height: 30%;
 width: 88%;
 border-radius: 15%;
 }
+
+.about-para {
+font-family: cursive;
+font-size: 25px;
+text-align: left;
+position: absolute;
+top: 33%;
+left: 6%;
+}
+
+
+
+
 
