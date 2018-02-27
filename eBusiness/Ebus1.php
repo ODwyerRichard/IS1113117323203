@@ -33,25 +33,46 @@
               
               
               
+             <div id="radio-b"> 
               
-              <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+             <label for="salesforce">
+               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                SalesForce - $100
               </label>
+              
                 
               <br/>
               <br/>
+             
               
-                <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+                Cloud9 - $200
               </label>
               
                 
               
               <br/>
                <br/>
+               
               
+             
+              <label for="aws">
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                AWS - $300
+              </label>
+              
+              <br/>
+               <br/>
+               
+               
+               
+               <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail - $400
+              </label>
+              
+               </div>
              
               
               <div><img id="salesforce-pic" src="salesforce.png" alt="Salesforce Picture"></div>
