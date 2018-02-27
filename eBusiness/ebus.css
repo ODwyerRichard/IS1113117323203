@@ -58,14 +58,6 @@ font-family: sans-serif;
 font-size: 35px;
 }
 
-#radio-b {
-position: absolute;
-top: 25%;
-left: 48%;
-font-family: serif;
-font-size: 22px;
-}
-
 #salesforce-pic {
 position: absolute;
 left: 37%;
@@ -100,6 +92,7 @@ width: 7%;
 height: 7%;
 border-radius: 15%;
 }
+
 
 
 

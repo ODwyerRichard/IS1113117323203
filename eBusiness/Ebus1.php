@@ -34,29 +34,24 @@
               
               
               
-              <div id="radio-b">
-               <input type="radio" id="salesforce" name="product" onClick="disablebtnProceed()"/>
-               Salesforce - $100<br/>
+              <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                SalesForce @ $100
+              </label>
                 
               <br/>
               <br/>
               
-               <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
-                Cloud9 - $300<br/>
+                <label for="aws">
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                AWS @ $300
+              </label>
               
-              
-              <br/>
-               <br/>
-              
-                <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
-                Amazon Web Services (AWS) - $300<br/>
+                
               
               <br/>
                <br/>
               
-                <input type="radio" id="Gmail" name="product" onClick="disablebtnProceed()"/>
-                 Gmail - $400<br/>
-                 </div>
              
               
               <div><img id="salesforce-pic" src="salesforce.png" alt="Salesforce Picture"></div>
@@ -76,7 +71,7 @@
               
              
              
-              <label for="subtotal">
+                <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
               </label>
@@ -89,8 +84,12 @@
                 Total
                 <input type="text" id="total"  name="total" value="0.00" readonly/>
               </label>
-    
+                
+                
               <br/>
+    
+              
+             <br/>
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
@@ -100,6 +99,5 @@
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
             
-    
     </body>
 </html>
