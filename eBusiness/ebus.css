@@ -50,7 +50,7 @@ ul li a:hover{
     padding:1%;
 }
 
-#select-h {
+#header {
 position: absolute;
 top:10%;
 left: 38%;
@@ -102,7 +102,78 @@ font-family: sans-serif;
 font-size: 25px;
 }
 
+#move {
+position: absolute;
+top: 60%;
+left: 40%;
+}
 
+#add {
+position: absolute;
+top: 70%;
+left: 40%;    
+}
+
+#calculate {
+position: absolute;
+top: 67%;
+left: 48%;
+}
+
+#clear {
+position: absolute;
+top: 70%;
+left: 54%;
+}
+
+
+#header2 {
+position: absolute;
+top:10%;
+left: 33%;
+font-family: sans-serif;
+font-size: 35px;
+}
+
+#pin {
+position: absolute;
+left: 42%;
+top:27%;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+#validate {
+position: absolute;
+left: 57%;
+top:24.5%;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+#proceed {
+position: absolute;
+left: 46%;
+top: 36%;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+#reciept-h {
+position: absolute;
+top:10%;
+left: 45%;
+font-family: cursive;
+font-size: 35px;
+}
+
+#cost {
+position: absolute;
+top:30%;
+left: 47%;
+font-family: sans-serif;
+font-size: 20px;
+}
 
 
 

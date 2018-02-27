@@ -23,7 +23,7 @@
         
         
         
-            <h2 id="select-h">Select a Product</h2>
+            <h2 id="header">Select a Product</h2>
             
             <br/>
             
@@ -89,12 +89,12 @@
               <br/>
               
              
-              
+              <div id="move">
              
              
                 <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
               </label>
               
               
@@ -107,18 +107,38 @@
               </label>
                 
                 
+                </div>
+                
               <br/>
     
               
              <br/>
               
+              <div id="add">
+              
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
+              </div>
+            
             
             </form>
             
             <br/>
+            
+            <div id="calculate">
+            
             <button onClick="calcSub()">Calculate Cost</button>
+            
+            </div>
+            
+            
+            <div id="clear">
+            
             <a role="button" href="Ebus1.php">Clear Choice</a>
+            
+            </div>
+            
+            
             
     </body>
 </html>

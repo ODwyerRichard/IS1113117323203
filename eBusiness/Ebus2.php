@@ -10,22 +10,39 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+        <link rel="stylesheet" href="ebus.css" type="text/css" >
+   
     </head>
+    
+    
     <body>
-        <h4>Please enter your payment details</h4>
+        
+        
+        
+        
+        <h2 id="header2">Please enter your payment details</h2>
         
         
             <form action="eBus3.php" method="POST">
 
-                    <label for="user_pin">PIN</label>
+                    
+                    <div id="pin">
+                    <label for="user_pin">Pin:</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    </div>
 
+                <div id="proceed">
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
+                </div>
+           
             </form>
             
+            <div id="validate">
             <br/>
             <button onClick="validateDetails()">Validate</button>
+            </div>
+            
             
             <?php
             // set session variables
