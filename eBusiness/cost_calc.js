@@ -10,10 +10,10 @@ function calcSub(){
     else if (document.getElementById('cloud9').checked){
       argSubTotal = 200;
     }
-    else if (document.getElementById('aws').checked){
+    else if (document.getElementById('amazon').checked){
       argSubTotal = 300;
     }
-    else{
+     else if (document.getElementById('gmail').checked){
       argSubTotal = 400;
     }
 
@@ -23,17 +23,17 @@ calcDiscountVatTotal(argSubTotal);
 
 function calcDiscountVatTotal(parmSubTotal){
   var subTotal = parmSubTotal
-  var discountAmt;
-  var vatAmt;
-  var totalPrice;
+  var discount;
+  var vat;
+  var total;
 
-  discountAmt = (parmSubTotal * 0.05);
+  discount = (parmSubTotal * 0.05);
   
-  vatAmt = ((parmSubTotal - discountAmt) * 0.1);
+  vat = ((parmSubTotal - discount) * 0.1);
   
-  totalPrice = ((parmSubTotal + vatAmt) - discountAmt);
+  total = ((parmSubTotal + vat) - discount);
   
-  display(subTotal, discountAmt, vatAmt, totalPrice);
+  display(subTotal, discount, vat, total);
 } 
 
 function display(parm1, parm2, parm3, parm4){

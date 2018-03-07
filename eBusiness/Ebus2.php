@@ -30,7 +30,17 @@ session_start();
                     <div id="pin">
                     <label for="user_pin">Pin:</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-                    </div>
+                    
+                    
+                    <label for="user_name">Name</label>
+            <input type="name" id="user_name" name="user_name" placeholder="Name" maxlength="35"/>
+            
+            <br/>
+            
+            <label for="user_email">Email Address</label>
+            <input type="email" id="user_email" name="user_email" placeholder="Joeblogs@example.com" maxlength="40"
+            </div>
+
 
                 <div id="proceed">
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>

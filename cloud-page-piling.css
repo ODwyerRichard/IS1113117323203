@@ -3,17 +3,10 @@ background-position: center;
 background-color: gray;
 background-size: cover;
 background-repeat: no-repeat;
+font-family: monospace;
+font-size: 30px;
+text-align: center;
 }
-
-#salesforce-icon {
-border-radius: 15%;
-position: absolute;  
-top: 30%;
-left: 30%;
-width: 40%;
-height: 30%;
-}
-
 
 
 #section2{
@@ -23,36 +16,25 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-#cloud9-icon {
-border-radius: 15%;
-position: absolute;  
-top: 25%;
-left: 35%;
-width: 30%;
-height: 40%;
-}
 
 #section3{
 background-position: center;
 background-color: gray;
 background-size: cover;
 background-repeat: no-repeat;
+font-family: monospace;
+font-size: 30px;
+text-align: center;
 }
 
-#amazon-icon {
-border-radius:15%;
-position: absolute;  
-top: 20%;
-left: 30%;
-height: 50%;
-width: 40%
-}
+
 
 #section4{
 background-position: center;
-background-color: #1CBEF1;
+background-color: #F95C29;
 background-size: cover;
 background-repeat: no-repeat;
+
 }
 
 #section5{
@@ -60,6 +42,9 @@ background-position: center;
 background-color: gray;
 background-size: cover;
 background-repeat: no-repeat;
+font-family: monospace;
+font-size: 30px;
+text-align: center;
 }
 
 
@@ -69,32 +54,7 @@ background-position: center;
 background-color: #FCF564;
 background-size: cover;
 background-repeat: no-repeat;
-
 }
-
-#section7{
-background-position: center;
-background-color: gray;
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-#gmail-icon {
-border-radius:15%;
-position: absolute;  
-top: 20%;
-left: 30%;
-width: 40%;
-height: 50%;
-}
-
-#section8{
-background-position: center;
-background-color: #ED3E3E;
-background-size: cover;
-background-repeat: no-repeat;
-}
-
 
 .piling-paragraph {
 font-family: monospace;
@@ -119,7 +79,7 @@ text-align: left;
     border-color: #1CBEF1;
     color: green;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 43%;
 }
 
@@ -132,4 +92,20 @@ text-align: left;
 .section{
     text-align: center;
     color: white;
+}
+
+#amazon {
+position: absolute;   
+top: 63%;
+left: 44%;
+height: 15%;
+width: 10%;
+border-radius: 20%;
+border: solid;
+border-color: black;
+}
+
+#amazon:hover{
+color: white;
+padding:0.5%;
 }

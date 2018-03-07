@@ -75,38 +75,50 @@ font-size: 30px;
 }
 
 
-.sports_icon {
+#sports_icon {
 width: 25%;
 height: 40%;
 position: absolute;
 Top: 30%;
 left: 6%;
 border-radius: 15%;
+border: solid;
+border-color: black;
+}
 
+#sports_icon:hover{
+border-color: blue;
+padding:1%;
 }
 
 
 
- .travel_icon {
+#travel_icon {
 width: 25%;
 height: 40%;
 position: absolute;
 Top: 30%;
 left: 36%;
 border-radius: 15%;
+border: solid;
+border-color: black;
+}
 
+#travel_icon:hover{
+border-color: blue;
+padding:1%;
 }
 
 
-.sports-header {
-    font-family: sans-serif;
-    font-size: 38px;
-    position: absolute;
-    top: 70%;
-    left:13%;
+#sportsheader {
+font-family: sans-serif;
+font-size: 38px;
+position: absolute;
+top: 70%;
+left:13%;
 }
 
-.travel-header {
+#travel-header {
     font-family: sans-serif;
     font-size: 38px;
     position: absolute;
@@ -114,16 +126,15 @@ border-radius: 15%;
     left: 44%;
 }
 
-.cloud-header {
+#cloud-header {
 font-family: sans-serif;
 font-size: 38px;
 position: absolute;
 top: 70%;
 left: 70%;   
-    
 }
 
-.cloud-icon {
+#cloud-icon {
 font-family: sans-serif;
 font-size: 38px;
 position: absolute;
@@ -131,6 +142,13 @@ top: 30%;
 left: 67%;
 width:25%;
 height:40%;
+border: solid;
+border-color: black;
+}
+
+#cloud-icon:hover{
+border-color: blue;
+padding:1%;
 }
 
 div img{
@@ -140,7 +158,7 @@ div img{
 }
 
 
-.travel-header {
+#travel-header {
 font-family: serif;
 font-size: 40px;
 }
