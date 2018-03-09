@@ -8,7 +8,11 @@ session_start();
     <head>
         <title>Enter Details</title>
         
+       <!--formats window-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--specify cahracter encoding-->
+         <meta charset="UTF-8">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -20,12 +24,15 @@ session_start();
     
     <body>
         
+      
         
         
         
+        
+       <!--page content-->
         <h2 id="header2">Please enter your payment details</h2>
         
-        
+        <!--sends info-->
             <form action="eBus3.php" method="POST">
 
                     
@@ -68,7 +75,7 @@ session_start();
            
        
     
-        
+        <!--java-->
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
 </html>

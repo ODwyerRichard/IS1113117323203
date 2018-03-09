@@ -1,5 +1,6 @@
 /* global $ */
 
+/functions/ 
 function validateDetails(){
     
     var pin;
@@ -17,6 +18,7 @@ function validateDetails(){
     }
     
 }
+
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);

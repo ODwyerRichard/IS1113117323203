@@ -3,7 +3,12 @@
     <head>
         <title>Select Product</title>
         
+        
+        <!--formats window-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--specify character encoding-->
+         <meta charset="UTF-8">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,11 +27,13 @@
             
            <div class="center">
            
+            <!--sneds info-->
             <form method="POST" action="Ebus2.php">
               
               
               
               
+              <!--page content-->
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -69,6 +76,7 @@
               
               
               
+             <!--page content-->
               <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
@@ -108,11 +116,13 @@
            
             </form>
             
+           <!--button-->
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
             
             
+            <!--pictures of products-->
             </div>
             
             <img id="gmail-pic" src="Gmail2.jpg" alt="Gmail Picture">
